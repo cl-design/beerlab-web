@@ -26,13 +26,14 @@
     }
 
     .container-imagenes-producto {
-        width: 100%;
+        width: 89%;
         display: flex;
         justify-content: center;
         margin-top: 50px;
+        margin-left: 65px;
+        margin-right: 0;
 
         .productos {
-            width: 70%;
             background-color: $color-principal;
             border-radius: 25px;
             display: flex;

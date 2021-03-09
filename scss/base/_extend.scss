@@ -1,7 +1,7 @@
 /*CARDS*/
 
 %card-1{
-    width: 350px;
+    width: 250px;
     height: 350px;
     border-radius: 20px;
     background-color: $color-bg-container-cards;
@@ -16,7 +16,7 @@
 }
 
 %card-2{
-    width: 350px;
+    width: 250px;
     height: 400px;
     border-radius: 20px;
     background-color: $color-bg-container-cards;
@@ -34,14 +34,14 @@
 
 %contenido-card{
     .container-imagen-card {
-        width: 350px;
-        height: 150px;
+        width: 250px;
+        height: 100px;
         margin-bottom: 50px;
 
         .imagen-card {
-            max-width: 70%;
-            margin-left: 30px;
-            
+            max-width: 80%; 
+            margin-left:10px;
+
         }
     }
 
