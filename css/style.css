@@ -1,0 +1,290 @@
+/*Generales*/
+/*CARDS*/
+.container-productos .container-imagenes-producto .productos .card {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  background-color: #dbc42b;
+  margin: 10px;
+  padding: 20px;
+}
+.container-productos .container-imagenes-producto .productos .card:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+section .container-card-promo .container-promociones .card {
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: #dbc42b;
+  margin: 10px;
+  padding: 20px;
+}
+section .container-card-promo .container-promociones .card:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+/*TEXTO E IMAGEN CARDS*/
+.container-productos .container-imagenes-producto .productos .card .container-imagen-card {
+  width: 350px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.container-productos .container-imagenes-producto .productos .card .container-imagen-card .imagen-card {
+  max-width: 70%;
+  margin-left: 30px;
+}
+.container-productos .container-imagenes-producto .productos .card div .align {
+  text-align: center;
+}
+.container-productos .container-imagenes-producto .productos .card div .texto-card {
+  font-family: "Rubik", sans-serif;
+}
+
+@media only screen and (max-width: 960px) {
+  .container-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-titulo-principal, .home-description {
+    text-align: center;
+  }
+
+  .container-nosotros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .titulo-nosotros, .description-nosotros {
+    text-align: center;
+  }
+
+  .btn-burger {
+    background-color: #F7D705;
+  }
+}
+/*Componentes*/
+.nav-principal {
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+/*Home*/
+.container-home {
+  display: flex;
+  padding: 40px;
+  margin-bottom: 60px;
+}
+.container-home .home-titulo {
+  margin-top: 40px;
+  padding: 30px;
+  font-family: "Rubik", sans-serif;
+}
+.container-home .home-titulo .home-titulo-principal {
+  font-size: 50px;
+  color: #F7D705;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.container-home .home-titulo .home-description {
+  font-size: 18px;
+  color: #E5DFDF;
+}
+
+/*Nosotros*/
+.container-nosotros {
+  padding: 40px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+}
+.container-nosotros .container-titulo-nosotros {
+  width: 50%;
+  padding: 25px;
+  margin-right: 100;
+}
+.container-nosotros .container-titulo-nosotros .titulo-nosotros {
+  font-size: 40px;
+  color: #F7D705;
+}
+.container-nosotros .container-titulo-nosotros .description-nosotros {
+  font-size: 18px;
+  color: #E5DFDF;
+}
+.container-nosotros .container-images-nosotros {
+  width: 50%;
+}
+.container-nosotros .container-images-nosotros .img-nosotros {
+  max-width: 100%;
+}
+
+/*Productos*/
+.container-productos {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.container-productos .container-titulo-productos .align {
+  text-align: center;
+}
+.container-productos .container-titulo-productos .titulo-producto {
+  font-size: 40px;
+  color: #F7D705;
+  font-family: "Rubik", sans-serif;
+}
+.container-productos .container-titulo-productos .align {
+  text-align: center;
+}
+.container-productos .container-titulo-productos .description-producto {
+  font-size: 18px;
+  color: #E5DFDF;
+  font-family: "Rubik", sans-serif;
+}
+.container-productos .container-imagenes-producto {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.container-productos .container-imagenes-producto .productos {
+  width: 70%;
+  background-color: #F7D705;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+/*Promociones*/
+section .container-texto-promo {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+section .container-texto-promo .align {
+  text-align: center;
+}
+section .container-texto-promo .titulo-producto {
+  font-size: 40px;
+  color: #F7D705;
+  font-family: "Rubik", sans-serif;
+}
+section .container-texto-promo .align {
+  text-align: center;
+}
+section .container-texto-promo .description-producto {
+  font-size: 18px;
+  color: #E5DFDF;
+  font-family: "Rubik", sans-serif;
+}
+section .container-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: center;
+}
+section .container-grid .container {
+  width: 200px;
+  height: 200px;
+}
+section .container-grid .item-grid {
+  width: 200px;
+  height: 200px;
+  margin: 3px;
+}
+section .container-grid .item-grid .imagen-caja {
+  max-width: 100%;
+}
+section .container-card-promo {
+  display: flex;
+  justify-content: center;
+}
+section .container-card-promo .container-promociones {
+  width: 70%;
+  background-color: #F7D705;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+section .container-card-promo .container-promociones .card .container-imagen-card {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+section .container-card-promo .container-promociones .card .container-imagen-card .imagen-card {
+  max-width: 100%;
+  margin-left: 30px;
+}
+section .container-card-promo .container-promociones .card div .align {
+  text-align: center;
+}
+section .container-card-promo .container-promociones .card div .texto-card {
+  font-family: "Rubik", sans-serif;
+}
+section .container-card-promo .container-promociones .card div .align {
+  text-align: center;
+}
+section .container-card-promo .container-promociones .card div .texto-card {
+  font-family: "Rubik", sans-serif;
+}
+section .container-card-promo .container-promociones .card div .spacing-card-promo .align {
+  text-align: center;
+}
+section .container-card-promo .container-promociones .card div .spacing-card-promo .texto-card {
+  font-family: "Rubik", sans-serif;
+}
+
+/*Contacto*/
+.container-formulario {
+  margin-bottom: 40px;
+}
+.container-formulario .container-texto-form {
+  margin-top: 100px;
+}
+.container-formulario .container-texto-form .text-contacto {
+  font-family: "Rubik", sans-serif;
+}
+.container-formulario .container-texto-form .des-contacto {
+  font-family: "Rubik", sans-serif;
+}
+.container-formulario .container-contacto {
+  background-color: #F7D705;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+footer .row .container-footer {
+  height: 150px;
+  background-color: #F7D705;
+  margin-right: 0;
+}
+footer .row .container-footer .container-content-footer {
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  padding: 15px;
+}
+footer .row .container-footer .container-content-footer .text-footer .texto-footer {
+  font-family: "Rubik", sans-serif;
+  margin: 3px;
+}
+footer .row .container-footer .container-content-footer div .icon {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+}
+footer .row .container-footer .container-content-footer div .icon .icon-footer {
+  max-width: 100%;
+}
+
+/*BODY*/
+body {
+  background-color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

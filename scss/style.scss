@@ -1,0 +1,26 @@
+/*Generales*/
+
+@import 'base/variables';
+@import 'base/extend';
+@import 'base/mediaQuerys';
+
+/*Componentes*/
+@import 'componentes/navbar';
+@import 'componentes/section-home';
+@import 'componentes/section-nosotros';
+@import 'componentes/section-productos';
+@import 'componentes/section-promociones';
+@import 'componentes/section-contacto';
+@import 'componentes/footer';
+
+
+/*BODY*/
+body{
+    background-color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

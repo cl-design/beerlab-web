@@ -1,0 +1,53 @@
+/*Productos*/
+
+.container-productos {
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .container-titulo-productos{
+
+        .align {
+            text-align: center;
+        }
+        .titulo-producto {
+            font-size: $size-titulo-2;
+            color: $color-principal;
+            font-family: $fuente;
+        }
+
+        .align {
+            text-align: center;
+        }
+        .description-producto {
+            font-size: 18px;
+            color: $color-texto;
+            font-family:$fuente;
+        }
+    }
+
+    .container-imagenes-producto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        .productos {
+            width: 70%;
+            background-color: $color-principal;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            flex-wrap: wrap;
+
+            .card {
+                @extend %card-1;
+                @extend %contenido-card;
+            }
+        }
+
+
+           
+                
+    }
+}

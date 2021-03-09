@@ -1,0 +1,23 @@
+
+/*Contacto*/
+
+.container-formulario {
+    margin-bottom: 40px;
+
+    .container-texto-form{
+        margin-top: 100px;
+        .text-contacto {
+            font-family: $fuente;
+        }
+
+        .des-contacto {
+            font-family: $fuente;
+        }
+    }
+
+    .container-contacto {
+        background-color: $color-principal;
+        padding: 30px;
+        border-radius: 10px;
+    }
+}

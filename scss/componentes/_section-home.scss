@@ -1,0 +1,27 @@
+
+/*Home*/
+
+.container-home {
+    display: flex;
+    padding: 40px;
+    margin-bottom: 60px;
+
+    .home-titulo {
+        margin-top: 40px;
+        padding: 30px;
+        font-family: $fuente;
+
+        .home-titulo-principal {
+            font-size: $size-titulo;
+            color: $color-principal;
+            line-height: 50px;
+            margin-bottom: 20px;
+        }
+
+        .home-description {
+            font-size: $size-description;
+            color: $color-texto;
+        }
+    }
+
+}

@@ -1,0 +1,30 @@
+/*Nosotros*/
+.container-nosotros {
+    padding: 40px;
+    font-family: $fuente;
+    display: flex;
+
+    .container-titulo-nosotros {
+        width: 50%;
+        padding: 25px;
+        margin-right: 100;
+
+        .titulo-nosotros {
+            font-size: $size-titulo-2;
+            color: $color-principal;
+        }
+
+        .description-nosotros {
+            font-size: 18px;
+            color: $color-texto;
+        }
+    }
+
+    .container-images-nosotros{
+        width: 50%;
+        
+        .img-nosotros{
+            max-width: 100%;
+        }
+    }
+}
