@@ -11,16 +11,59 @@
 
     .container-nosotros{
         display: flex;
+        justify-content: center;
         align-items: center;
-        flex-direction: column;
     }
 
-    .titulo-nosotros, .description-nosotros{
-        text-align: center;
+    .container-titulo-nosotros{
+        width: 0;
+        .titulo-nosotros, .description-nosotros{
+            text-align: center;
+        }
     }
 
     .btn-burger{
         background-color: $color-principal;
     }
+
+    .container-productos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+
+        .container {
+            width: 200px;
+            height: 200px;
+        }
+        .item-grid {
+            width: 200px;
+            height: 200px;
+            margin: 3px;
+
+            .imagen-caja {
+                max-width: 100%;
+            }
+        }
+
+        .item-grid-3, .item-grid-4{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width:540px) and (max-width:768px){
+    .container-nosotros{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

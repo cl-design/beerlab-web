@@ -56,16 +56,55 @@ section .container-card-promo .container-promociones .card:hover {
 
   .container-nosotros {
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
   }
 
-  .titulo-nosotros, .description-nosotros {
+  .container-titulo-nosotros {
+    width: 0;
+  }
+  .container-titulo-nosotros .titulo-nosotros, .container-titulo-nosotros .description-nosotros {
     text-align: center;
   }
 
   .btn-burger {
     background-color: #F7D705;
+  }
+
+  .container-productos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  .container-grid .container {
+    width: 200px;
+    height: 200px;
+  }
+  .container-grid .item-grid {
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+  }
+  .container-grid .item-grid .imagen-caja {
+    max-width: 100%;
+  }
+  .container-grid .item-grid-3, .container-grid .item-grid-4 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px) {
+  .container-nosotros {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 /*Componentes*/
@@ -144,12 +183,10 @@ section .container-card-promo .container-promociones .card:hover {
   font-family: "Rubik", sans-serif;
 }
 .container-productos .container-imagenes-producto {
-  width: 89%;
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 65px;
-  margin-right: 0;
+  margin-left: 20px;
 }
 .container-productos .container-imagenes-producto .productos {
   background-color: #F7D705;
@@ -259,27 +296,28 @@ section .container-card-promo .container-promociones .card div .spacing-card-pro
   border-radius: 10px;
 }
 
-footer .row .container-footer {
+footer .footer .container-footer {
+  width: 100%;
   height: 150px;
   background-color: #F7D705;
-  margin-right: 0;
+  margin: 0;
 }
-footer .row .container-footer .container-content-footer {
+footer .footer .container-footer .container-content-footer {
   width: 300px;
   height: 150px;
   border-radius: 5px;
   padding: 15px;
 }
-footer .row .container-footer .container-content-footer .text-footer .texto-footer {
+footer .footer .container-footer .container-content-footer .text-footer .texto-footer {
   font-family: "Rubik", sans-serif;
   margin: 3px;
 }
-footer .row .container-footer .container-content-footer div .icon {
+footer .footer .container-footer .container-content-footer div .icon {
   margin: 5px;
   height: 40px;
   width: 40px;
 }
-footer .row .container-footer .container-content-footer div .icon .icon-footer {
+footer .footer .container-footer .container-content-footer div .icon .icon-footer {
   max-width: 100%;
 }
 

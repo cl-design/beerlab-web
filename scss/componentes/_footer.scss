@@ -1,9 +1,10 @@
 footer{
-    .row{
+    .footer{
         .container-footer {
+            width: 100%;
             height: 150px;
             background-color: $color-principal;
-            margin-right: 0;
+            margin: 0;
 
             .container-content-footer {
                 width: 300px;

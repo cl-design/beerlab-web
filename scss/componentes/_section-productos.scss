@@ -26,12 +26,10 @@
     }
 
     .container-imagenes-producto {
-        width: 89%;
         display: flex;
         justify-content: center;
         margin-top: 50px;
-        margin-left: 65px;
-        margin-right: 0;
+        margin-left: 20px;
 
         .productos {
             background-color: $color-principal;
