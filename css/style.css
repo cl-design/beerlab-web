@@ -49,21 +49,17 @@ section .container-card-promo .container-promociones .card:hover {
     align-items: center;
     flex-direction: column;
   }
-
-  .home-titulo-principal, .home-description {
+  .container-home .home-titulo-principal, .container-home .home-description {
     text-align: center;
   }
 
   .container-nosotros {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
-
-  .container-titulo-nosotros {
-    width: 0;
-  }
-  .container-titulo-nosotros .titulo-nosotros, .container-titulo-nosotros .description-nosotros {
+  .container-nosotros .container-titulo-nosotros .titulo-nosotros, .container-nosotros .container-titulo-nosotros .description-nosotros {
     text-align: center;
   }
 
@@ -73,8 +69,14 @@ section .container-card-promo .container-promociones .card:hover {
 
   .container-productos {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 20px;
+  }
+  .container-productos .titulo-producto {
+    text-align: center;
+    margin: 0;
   }
 
   .container-grid {
@@ -97,14 +99,28 @@ section .container-card-promo .container-promociones .card:hover {
   .container-grid .item-grid-3, .container-grid .item-grid-4 {
     display: none;
   }
+
+  section container-card-promo {
+    margin: 20px;
+  }
 }
 @media only screen and (min-width: 540px) and (max-width: 768px) {
   .container-nosotros {
     margin: 0;
     display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container-nosotros {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .container-nosotros .container-titulo-nosotros .titulo-nosotros, .container-nosotros .container-titulo-nosotros .description-nosotros {
+    width: 100%;
+    text-align: center;
   }
 }
 /*Componentes*/
@@ -142,9 +158,7 @@ section .container-card-promo .container-promociones .card:hover {
   display: flex;
 }
 .container-nosotros .container-titulo-nosotros {
-  width: 50%;
   padding: 25px;
-  margin-right: 100;
 }
 .container-nosotros .container-titulo-nosotros .titulo-nosotros {
   font-size: 40px;
@@ -155,10 +169,7 @@ section .container-card-promo .container-promociones .card:hover {
   color: #E5DFDF;
 }
 .container-nosotros .container-images-nosotros {
-  width: 50%;
-}
-.container-nosotros .container-images-nosotros .img-nosotros {
-  max-width: 100%;
+  margin-top: 50px;
 }
 
 /*Productos*/
@@ -185,8 +196,6 @@ section .container-card-promo .container-promociones .card:hover {
 .container-productos .container-imagenes-producto {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  margin-left: 20px;
 }
 .container-productos .container-imagenes-producto .productos {
   background-color: #F7D705;
@@ -243,11 +252,8 @@ section .container-card-promo .container-promociones {
   border-radius: 25px;
   display: flex;
   justify-content: space-around;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 40px;
-  padding-bottom: 40px;
   flex-wrap: wrap;
+  padding: 10px;
 }
 section .container-card-promo .container-promociones .card .container-imagen-card {
   width: 250px;

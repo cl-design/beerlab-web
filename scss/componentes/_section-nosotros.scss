@@ -3,11 +3,11 @@
     padding: 40px;
     font-family: $fuente;
     display: flex;
+   
 
     .container-titulo-nosotros {
-        width: 50%;
+
         padding: 25px;
-        margin-right: 100;
 
         .titulo-nosotros {
             font-size: $size-titulo-2;
@@ -20,11 +20,10 @@
         }
     }
 
+
     .container-images-nosotros{
-        width: 50%;
-        
-        .img-nosotros{
-            max-width: 100%;
-        }
+        margin-top: 50px;     
+
     }
 }
+

@@ -3,24 +3,28 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
 
-    .home-titulo-principal, .home-description{
-        text-align: center;
-    }
-
-    .container-nosotros{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container-titulo-nosotros{
-        width: 0;
-        .titulo-nosotros, .description-nosotros{
+        .home-titulo-principal, .home-description{
             text-align: center;
         }
     }
+
+    
+
+    .container-nosotros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .container-titulo-nosotros{
+            .titulo-nosotros,.description-nosotros{
+                text-align: center;
+            }
+        }
+
+    }
+
 
     .btn-burger{
         background-color: $color-principal;
@@ -28,8 +32,15 @@
 
     .container-productos{
         display: flex;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding: 20px;
+
+        .titulo-producto{
+            text-align: center;
+            margin: 0;
+        }
     }
     
 
@@ -56,14 +67,37 @@
             display: none;
         }
     }
+
+
+    section{
+        container-card-promo{
+            margin: 20px;
+        }
+    }
+
 }
 
 @media only screen and (min-width:540px) and (max-width:768px){
     .container-nosotros{
         margin: 0;
         display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-nosotros{
+        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
+        .container-titulo-nosotros{
+            .titulo-nosotros,.description-nosotros{
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        
     }
 }
