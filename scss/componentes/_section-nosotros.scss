@@ -1,12 +1,15 @@
 /*Nosotros*/
 .container-nosotros {
+    /*Box model*/
     padding: 40px;
+    /**/
     font-family: $fuente;
+    /*Flexbox*/
     display: flex;
    
 
     .container-titulo-nosotros {
-
+         /*Box model*/
         padding: 25px;
 
         .titulo-nosotros {
@@ -22,6 +25,7 @@
 
 
     .container-images-nosotros{
+        /*Box Model*/
         margin-top: 50px;     
 
     }

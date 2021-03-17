@@ -1,4 +1,11 @@
 /*Generales*/
+/*BODY*/
+body {
+  background-color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
 /*CARDS*/
 .container-productos .container-imagenes-producto .productos .card {
   width: 250px;
@@ -131,11 +138,14 @@ section .container-card-promo .container-promociones .card:hover {
 
 /*Home*/
 .container-home {
+  /*Flexbox*/
   display: flex;
+  /*Box Model*/
   padding: 40px;
   margin-bottom: 60px;
 }
 .container-home .home-titulo {
+  /*Box model*/
   margin-top: 40px;
   padding: 30px;
   font-family: "Rubik", sans-serif;
@@ -153,11 +163,15 @@ section .container-card-promo .container-promociones .card:hover {
 
 /*Nosotros*/
 .container-nosotros {
+  /*Box model*/
   padding: 40px;
+  /**/
   font-family: "Rubik", sans-serif;
+  /*Flexbox*/
   display: flex;
 }
 .container-nosotros .container-titulo-nosotros {
+  /*Box model*/
   padding: 25px;
 }
 .container-nosotros .container-titulo-nosotros .titulo-nosotros {
@@ -169,11 +183,13 @@ section .container-card-promo .container-promociones .card:hover {
   color: #E5DFDF;
 }
 .container-nosotros .container-images-nosotros {
+  /*Box Model*/
   margin-top: 50px;
 }
 
 /*Productos*/
 .container-productos {
+  /*Box Model*/
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -194,6 +210,7 @@ section .container-card-promo .container-promociones .card:hover {
   font-family: "Rubik", sans-serif;
 }
 .container-productos .container-imagenes-producto {
+  /*Flexbox*/
   display: flex;
   justify-content: center;
 }
@@ -207,6 +224,7 @@ section .container-card-promo .container-promociones .card:hover {
 }
 /*Promociones*/
 section .container-texto-promo {
+  /*Box Model*/
   margin-top: 80px;
   margin-bottom: 30px;
 }
@@ -227,40 +245,50 @@ section .container-texto-promo .description-producto {
   font-family: "Rubik", sans-serif;
 }
 section .container-grid {
+  /*Grid System*/
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   justify-content: center;
 }
 section .container-grid .container {
+  /*Box Model*/
   width: 200px;
   height: 200px;
 }
 section .container-grid .item-grid {
+  /*Box Model*/
   width: 200px;
   height: 200px;
   margin: 3px;
 }
 section .container-grid .item-grid .imagen-caja {
+  /*Box Model*/
   max-width: 100%;
 }
 section .container-card-promo {
+  /*Flexbox*/
   display: flex;
   justify-content: center;
 }
 section .container-card-promo .container-promociones {
+  /*Bg Color*/
   background-color: #F7D705;
-  border-radius: 25px;
+  /*Flexbox*/
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  /*Box Model*/
   padding: 10px;
+  border-radius: 25px;
 }
 section .container-card-promo .container-promociones .card .container-imagen-card {
+  /*Box Model*/
   width: 250px;
   height: 100px;
   margin-bottom: 80px;
 }
 section .container-card-promo .container-promociones .card .container-imagen-card .imagen-card {
+  /*Box Model*/
   max-width: 80%;
   margin-left: 10px;
 }
@@ -285,9 +313,11 @@ section .container-card-promo .container-promociones .card div .spacing-card-pro
 
 /*Contacto*/
 .container-formulario {
+  /*Box Model*/
   margin-bottom: 40px;
 }
 .container-formulario .container-texto-form {
+  /*Box Model*/
   margin-top: 100px;
 }
 .container-formulario .container-texto-form .text-contacto {
@@ -297,18 +327,23 @@ section .container-card-promo .container-promociones .card div .spacing-card-pro
   font-family: "Rubik", sans-serif;
 }
 .container-formulario .container-contacto {
+  /*BG Color*/
   background-color: #F7D705;
+  /*Box Model*/
   padding: 30px;
   border-radius: 10px;
 }
 
 footer .footer .container-footer {
+  /*Box Model*/
   width: 100%;
   height: 150px;
-  background-color: #F7D705;
   margin: 0;
+  /*BG Color*/
+  background-color: #F7D705;
 }
 footer .footer .container-footer .container-content-footer {
+  /*Box model*/
   width: 300px;
   height: 150px;
   border-radius: 5px;
@@ -319,19 +354,13 @@ footer .footer .container-footer .container-content-footer .text-footer .texto-f
   margin: 3px;
 }
 footer .footer .container-footer .container-content-footer div .icon {
+  /*Box Model*/
   margin: 5px;
   height: 40px;
   width: 40px;
 }
 footer .footer .container-footer .container-content-footer div .icon .icon-footer {
   max-width: 100%;
-}
-
-/*BODY*/
-body {
-  background-color: #212529;
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,6 +2,8 @@
 
 section{
     .container-texto-promo {
+
+        /*Box Model*/
         margin-top: 80px;
         margin-bottom: 30px;
 
@@ -25,47 +27,71 @@ section{
     }
 
     .container-grid {
+
+        /*Grid System*/
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         justify-content: center;
 
         .container {
+
+            /*Box Model*/
             width: 200px;
             height: 200px;
+
         }
         .item-grid {
+
+            /*Box Model*/
             width: 200px;
             height: 200px;
             margin: 3px;
 
             .imagen-caja {
+
+                /*Box Model*/
                 max-width: 100%;
+                
             }
         }
     }
 
     .container-card-promo {
+
+        /*Flexbox*/
         display: flex;
         justify-content: center;
 
         .container-promociones {
+
+            /*Bg Color*/
             background-color: $color-principal;
-            border-radius: 25px;
+            
+            /*Flexbox*/
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+
+            /*Box Model*/
             padding: 10px;
+            border-radius: 25px;
+
             .card {
                 @extend %card-2;
 
                 .container-imagen-card {
+
+                    /*Box Model*/
                     width: 250px;
                     height: 100px;
                     margin-bottom: 80px;
 
                     .imagen-card {
+
+                        /*Box Model*/
                         max-width: 80%;
                         margin-left: 10px;
+                        
                     }
                 }
 

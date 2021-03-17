@@ -1,12 +1,18 @@
 footer{
     .footer{
         .container-footer {
+
+            /*Box Model*/
             width: 100%;
             height: 150px;
-            background-color: $color-principal;
             margin: 0;
 
+            /*BG Color*/
+            background-color: $color-principal;
+            
             .container-content-footer {
+
+                /*Box model*/
                 width: 300px;
                 height: 150px;
                 border-radius: 5px;
@@ -22,6 +28,8 @@ footer{
 
                 div{
                     .icon {
+
+                        /*Box Model*/
                         margin: 5px;
                         height: 40px;
                         width: 40px;

@@ -1,5 +1,5 @@
 /*Generales*/
-
+@import 'base/body';
 @import 'base/variables';
 @import 'base/extend';
 @import 'base/mediaQuerys';
@@ -14,12 +14,8 @@
 @import 'componentes/footer';
 
 
-/*BODY*/
-body{
-    background-color: #212529;
-    margin: 0;
-    padding: 0;
-}
+
+
 
 
 

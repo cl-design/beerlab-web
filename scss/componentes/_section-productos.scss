@@ -1,6 +1,7 @@
 /*Productos*/
 
 .container-productos {
+    /*Box Model*/
     margin-top: 60px;
     margin-bottom: 60px;
 
@@ -26,6 +27,7 @@
     }
 
     .container-imagenes-producto {
+        /*Flexbox*/
         display: flex;
         justify-content: center;
         

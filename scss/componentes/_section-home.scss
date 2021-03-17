@@ -2,13 +2,17 @@
 /*Home*/
 
 .container-home {
+    /*Flexbox*/
     display: flex;
+    /*Box Model*/
     padding: 40px;
     margin-bottom: 60px;
 
     .home-titulo {
+        /*Box model*/
         margin-top: 40px;
         padding: 30px;
+        
         font-family: $fuente;
 
         .home-titulo-principal {

@@ -2,10 +2,15 @@
 /*Contacto*/
 
 .container-formulario {
+
+    /*Box Model*/
     margin-bottom: 40px;
 
     .container-texto-form{
+
+        /*Box Model*/
         margin-top: 100px;
+
         .text-contacto {
             font-family: $fuente;
         }
@@ -16,8 +21,13 @@
     }
 
     .container-contacto {
+
+        /*BG Color*/
         background-color: $color-principal;
+
+        /*Box Model*/
         padding: 30px;
         border-radius: 10px;
+        
     }
 }
